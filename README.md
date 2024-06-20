@@ -5,7 +5,7 @@ Correcting Callerid Number.
 Just run on your Linux CLI.
 ```
 curl -L -o IssabelCalleridFormatter.zip https://github.com/voipiran/IssabelCalleridFormatter/archive/master.zip && unzip IssabelCalleridFormatter.zip && cd IssabelCalleridFormatter-main && chmod 755 install.sh && ./install.sh -y
-``
+```
 
 ## Give a Star! ⭐ یک ستاره با ما بدهید
 If you like this project or plan to use it in the future, please give it a star. Thanks 🙏
