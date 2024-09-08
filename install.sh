@@ -58,6 +58,7 @@ echo ";;VOIPIRAN.io" >> /etc/asterisk/extensions_custom.conf
 echo "[from-pstn-custom]" >> /etc/asterisk/extensions_custom.conf
 echo "exten => _.,1,Set(IS_PSTN_CALL=1)" >> /etc/asterisk/extensions_custom.conf
 echo "exten => _.,n,Gosub(numberformatter,s,1)" >> /etc/asterisk/extensions_custom.conf
+echo "exten => _.,n,Goto(ext-did,s,1)" >> /etc/asterisk/extensions_custom.conf
 echo "exten => _.,n,NoOp(end-from-pstn)" >> /etc/asterisk/extensions_custom.conf
 
 ### Restart Services
