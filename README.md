@@ -7,6 +7,7 @@ Correcting Callerid Number.
 curl -L -o IssabelCalleridFormatter.zip https://github.com/voipiran/IssabelCalleridFormatter/archive/master.zip && unzip IssabelCalleridFormatter.zip && cd IssabelCalleridFormatter-main && chmod 755 install.sh && ./install.sh -y
 ```
 2. Change the Trunk incoming context to   context=to-cidformatter
+
 در تعریف ترانک ورودی شهری خود کانتکس را به context=to-cidformatter تغییر دهد.
 
 ## Give a Star! ⭐ یک ستاره با ما بدهید
