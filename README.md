@@ -4,13 +4,13 @@ Correcting Callerid Number.
 ## Instalation (راهنمای نصب)
 1. run on your Linux CLI.
 
-   دستور زیر را بر روی کنسول لینوکس ایزابل خود اجرا کنید.
+1. دستور زیر را بر روی کنسول لینوکس ایزابل خود اجرا کنید.
 ```
 curl -L -o IssabelCalleridFormatter.zip https://github.com/voipiran/IssabelCalleridFormatter/archive/master.zip && unzip IssabelCalleridFormatter.zip && cd IssabelCalleridFormatter-main && chmod 755 install.sh && ./install.sh -y
 ```
 2. Change the Trunk incoming context to   context=to-cidformatter
 
-در تعریف ترانک ورودی شهری خود کانتکس را به context=to-cidformatter تغییر دهد.
+2. در تعریف ترانک ورودی شهری خود کانتکس را به context=to-cidformatter تغییر دهد.
 
 ## Give a Star! ⭐ یک ستاره با ما بدهید
 If you like this project or plan to use it in the future, please give it a star. Thanks 🙏
