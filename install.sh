@@ -60,7 +60,7 @@ echo "exten => _.,1,Set(IS_PSTN_CALL=1)" >> /etc/asterisk/extensions_custom.conf
 echo "exten => _.,n,NoOp(start-from-pstn)" >> /etc/asterisk/extensions_custom.conf
 echo "exten => _.,n,Gosub(numberformatter,s,1)" >> /etc/asterisk/extensions_custom.conf
 echo "exten => _.,n,NoOp(end-from-pstn)" >> /etc/asterisk/extensions_custom.conf
-echo "exten => _.,n,Goto(from-pstn,s,1)" >> /etc/asterisk/extensions_custom.conf
+echo "exten => _X.,n,Goto(ext-did,${EXTEN},1)" >> /etc/asterisk/extensions_custom.conf
 
 ### Restart Services
 systemctl reload asterisk
